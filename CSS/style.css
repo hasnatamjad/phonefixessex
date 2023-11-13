@@ -216,3 +216,7 @@ input[type="number"] {
   color: var(--second-color);
   cursor: pointer;
 }
+
+.carousal-control {
+  border-radius: 50%;
+}

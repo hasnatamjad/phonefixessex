@@ -63,10 +63,10 @@ body {
 /* -----Setting Colors Systems----- */
 /* ======================================================= */
 :root {
-  --main-color-light: #d4efab;
+  --main-color-light: #d4c8f8;
   /* --main-color: #99cc33; */
   --main-color: #7048e8;
-  --main-color-dark: #3b5612;
+  --main-color-dark: #221646;
   --second-color: #36454f;
   --accent-color: #919191;
   --white-color: #fff;

@@ -1,0 +1,81 @@
+.service-item {
+  height: 90vh;
+}
+
+@media (max-width: 600px) {
+  .service-item {
+    height: 50vh;
+  }
+}
+
+.item-1 {
+  background-image: linear-gradient(rgba(0, 0, 10, 0.3), rgba(0, 0, 10, 0.3)),
+    url(/images/small-business.webp);
+}
+
+.item-2 {
+  background-image: linear-gradient(rgba(0, 0, 10, 0.3), rgba(0, 0, 10, 0.3)),
+    url(/images/medium-business.webp);
+}
+.item-3 {
+  background-image: linear-gradient(rgba(0, 0, 10, 0.3), rgba(0, 0, 10, 0.3)),
+    url(/images/builders.webp);
+}
+.item-4 {
+  background-image: linear-gradient(rgba(0, 0, 10, 0.3), rgba(0, 0, 10, 0.3)),
+    url(/images/property.webp);
+}
+.item-5 {
+  background-image: linear-gradient(rgba(0, 0, 10, 0.3), rgba(0, 0, 10, 0.3)),
+    url(/images/IT-company.jpg);
+}
+.item-6 {
+  background-image: linear-gradient(rgba(0, 0, 10, 0.3), rgba(0, 0, 10, 0.3)),
+    url(/images/growing-business.webp);
+}
+.item-7 {
+  background-image: linear-gradient(rgba(0, 0, 10, 0.3), rgba(0, 0, 10, 0.3)),
+    url(/images/landlords.webp);
+}
+.item-8 {
+  background-image: linear-gradient(rgba(0, 0, 10, 0.3), rgba(0, 0, 10, 0.3)),
+    url(/images/import-exports.webp);
+}
+.item-9 {
+  background-image: linear-gradient(rgba(0, 0, 10, 0.3), rgba(0, 0, 10, 0.3)),
+    url(/images/hgtc.webp);
+}
+.item-10 {
+  background-image: linear-gradient(rgba(0, 0, 10, 0.3), rgba(0, 0, 10, 0.3)),
+    url(/images/cab-drivers.webp);
+}
+.item-11 {
+  background-image: linear-gradient(rgba(0, 0, 10, 0.3), rgba(0, 0, 10, 0.3)),
+    url(/images/retail-shop.webp);
+}
+.item-12 {
+  background-image: linear-gradient(rgba(0, 0, 10, 0.3), rgba(0, 0, 10, 0.3)),
+    url(/images/food-take-away.webp);
+}
+.item-13 {
+  background-image: linear-gradient(rgba(0, 0, 10, 0.3), rgba(0, 0, 10, 0.3)),
+    url(/images/manufacture.webp);
+}
+.item-14 {
+  background-image: linear-gradient(rgba(0, 0, 10, 0.3), rgba(0, 0, 10, 0.3)),
+    url(/images/transport.webp);
+}
+.item-15 {
+  background-image: linear-gradient(rgba(0, 0, 10, 0.3), rgba(0, 0, 10, 0.3)),
+    url(/images/investors.webp);
+}
+
+.service-item-content {
+  background-color: rgba(0, 33, 71, 0.5);
+}
+
+.service-item {
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* ======================================================= */
+/* -----Setting Fonts Systems----- */
+/* ======================================================= */
+@font-face {
+  font-family: "Aktiv Grotesk";
+  src: url("/fonts/main/AktivGrotesk-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Aktiv Grotesk";
+  src: url("/fonts/main/AktivGrotesk-Medium.otf") format("opentype");
+  font-weight: 500; /* Medium weight */
+  font-style: normal;
+}
+@font-face {
+  font-family: "Aktiv Grotesk";
+  src: url("/fonts/main/AktivGrotesk-Bold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Aktiv Grotesk";
+  src: url("/fonts/main/AktivGrotesk-Light.otf") format("opentype");
+  font-weight: 300; /* Light weight */
+  font-style: normal;
+}
+@font-face {
+  font-family: "Aktiv Grotesk";
+  src: url("/fonts/main/AktivGrotesk-XBold.otf") format("opentype");
+  font-weight: 800; /* Extra Bold weight */
+  font-style: normal;
+}
+body {
+  font-family: "Aktiv Grotesk", sans-serif !important;
+}
+/* --Adding font-weight classes-- */
+.fw-light {
+  font-weight: 300;
+}
+.fw-normal {
+  font-weight: normal;
+}
+.fw-medium {
+  font-weight: 500;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+.fw-bold {
+  font-weight: bold;
+}
+.fw-xbold {
+  font-weight: 800;
+}
+
+/* ======================================================= */
+/* -----Setting Colors Systems----- */
+/* ======================================================= */
+
+.text-main-light {
+  color: #d4efab !important;
+}
+.bg-main-light {
+  background-color: #d4efab !important;
+}
+.text-main {
+  color: #94d82d !important;
+}
+.bg-main {
+  background-color: #94d82d !important;
+}
+
+.text-main-dark {
+  color: #3b5612 !important;
+}
+.bg-main-dark {
+  background-color: #3b5612 !important;
+}
+
+.text-second {
+  color: #36454f !important;
+}
+.bg-second {
+  background-color: #36454f !important;
+}

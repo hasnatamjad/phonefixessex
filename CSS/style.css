@@ -1,0 +1,218 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* ======================================================= */
+/* -----Setting Fonts Systems----- */
+/* ======================================================= */
+@font-face {
+  font-family: "Aktiv Grotesk";
+  src: url("/fonts/main/AktivGrotesk-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Aktiv Grotesk";
+  src: url("/fonts/main/AktivGrotesk-Medium.otf") format("opentype");
+  font-weight: 500; /* Medium weight */
+  font-style: normal;
+}
+@font-face {
+  font-family: "Aktiv Grotesk";
+  src: url("/fonts/main/AktivGrotesk-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Aktiv Grotesk";
+  src: url("/fonts/main/AktivGrotesk-Light.otf") format("opentype");
+  font-weight: 300; /* Light weight */
+  font-style: normal;
+}
+@font-face {
+  font-family: "Aktiv Grotesk";
+  src: url("/fonts/main/AktivGrotesk-XBold.otf") format("opentype");
+  font-weight: 800; /* Extra Bold weight */
+  font-style: normal;
+}
+body {
+  font-family: "Aktiv Grotesk", sans-serif !important;
+}
+/* --Adding font-weight classes-- */
+.fw-light {
+  font-weight: 300;
+}
+.fw-normal {
+  font-weight: normal;
+}
+.fw-medium {
+  font-weight: 500;
+}
+.fw-600 {
+  font-weight: 600;
+}
+.fw-bold {
+  font-weight: 700;
+}
+.fw-xbold {
+  font-weight: 800;
+}
+/* ======================================================= */
+/* -----Setting Colors Systems----- */
+/* ======================================================= */
+:root {
+  --main-color-light: #d4efab;
+  /* --main-color: #99cc33; */
+  --main-color: #7048e8;
+  --main-color-dark: #3b5612;
+  --second-color: #36454f;
+  --accent-color: #919191;
+  --white-color: #fff;
+}
+.text-main-light {
+  color: var(--main-color-light) !important;
+}
+.bg-main-light {
+  background-color: var(--main-color-light) !important;
+}
+.text-main {
+  color: var(--main-color) !important;
+}
+.bg-main {
+  background-color: var(--main-color) !important;
+}
+
+.text-main-dark {
+  color: var(--main-color-dark) !important;
+}
+.bg-main-dark {
+  background-color: var(--main-color-dark) !important;
+}
+
+.text-second {
+  color: var(--second-color) !important;
+}
+.bg-second {
+  background-color: var(--second-color) !important;
+}
+.text-accent {
+  color: var(--accent-color);
+}
+.bg-accent {
+  background-color: var(--accent-color);
+}
+.text-white {
+  color: var(--white-color);
+}
+.bg-white {
+  background-color: var(--white-color);
+}
+
+/* ======================================================= */
+/* -----Setting Buttons & Links Systems----- */
+/* ======================================================= */
+.btn-main,
+.btn-main:visited {
+  background-color: var(--main-color);
+  color: var(--white-color);
+  border: none !important;
+}
+
+.btn-main:hover,
+.btn-main:active,
+.btn-main:link {
+  background-color: var(--second-color);
+  color: var(--white-color);
+  border: none !important;
+}
+
+.btn-second,
+.btn-second:visited {
+  background-color: var(--second-color);
+  color: var(--white-color);
+}
+
+.btn-second:hover,
+.btn-second:active,
+.btn-second:link {
+  background-color: var(--main-color);
+  color: var(--white-color);
+}
+
+.btn-black {
+  background-color: #000;
+  color: #fff;
+}
+.nav-link {
+  color: var(--accent-color) !important;
+}
+
+.nav-link:hover {
+  color: var(--main-color) !important;
+}
+
+.active {
+  color: var(--main-color) !important;
+}
+.active:hover {
+  color: var(--main-color) !important;
+}
+
+.main-navbar {
+  /* box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5); */
+}
+
+#main-logo {
+  width: 14rem;
+}
+
+@media (max-width: 480px) {
+  #main-logo {
+    width: 9rem;
+  }
+}
+#offcanvasScrolling {
+  width: 100%;
+}
+.form-control {
+  border-color: var(--second-color);
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+#hero-section {
+  max-width: 100%;
+
+  background-image: url(/images/hero.png);
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+
+.hero-section {
+  height: 400px;
+}
+
+.hero-p {
+  font-size: 10px;
+}
+.fs-7 {
+  font-size: 12px !important;
+}
+.device-box {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.device-box p:hover {
+  color: var(--second-color);
+  cursor: pointer;
+}

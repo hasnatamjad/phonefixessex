@@ -192,7 +192,7 @@ input[type="number"] {
 #hero-section {
   max-width: 100%;
 
-  background-image: url(/images/hero.png);
+  background-image: url("/images/hero.png");
   background-size: cover;
   background-position: 50%;
   background-repeat: no-repeat;

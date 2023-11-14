@@ -270,6 +270,11 @@ input[type="number"] {
   margin-bottom: 0 !important;
 }
 
+.footer-link {
+  color: #fff;
+  text-decoration: none;
+}
+
 @media (max-width: 992px) {
   .why-us-icons {
     width: 31%;

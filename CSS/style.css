@@ -231,3 +231,17 @@ input[type="number"] {
 .icon-text {
   line-height: 1.1;
 }
+
+#faq-hero {
+  max-width: 100%;
+
+  background-image: linear-gradient(rgba(0, 0, 10, 0.4), rgba(0, 0, 10, 0.4)),
+    url("/images/faq-banner.webp");
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+
+.faq-hero {
+  height: 350px;
+}

@@ -269,3 +269,39 @@ input[type="number"] {
   font-size: 1.1rem;
   margin-bottom: 0 !important;
 }
+
+@media (max-width: 992px) {
+  .why-us-icons {
+    width: 31%;
+  }
+}
+
+@media (max-width: 768px) {
+  .why-us-icons {
+    width: 27%;
+  }
+
+  .accordion-button {
+    font-size: 1.25rem;
+  }
+  .accordion-p {
+    font-size: 1.05rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .why-us-icons {
+    width: 22%;
+  }
+
+  .accordion-button {
+    font-size: 1rem;
+  }
+  .accordion-p {
+    font-size: 0.8rem;
+  }
+
+  .accordion-item {
+    padding: 0.2rem 0.9rem;
+  }
+}

@@ -245,3 +245,27 @@ input[type="number"] {
 .faq-hero {
   height: 350px;
 }
+
+.accordion-item {
+  border-radius: 1.5rem !important;
+  overflow: hidden !important;
+  padding: 0.2rem 1.4rem;
+  /* border: 1px solid var(--accent-color) !important; */
+  border: 1px solid #00000020 !important;
+}
+
+.accordion-button {
+  color: var(--second-color) !important;
+  font-weight: bold;
+  font-size: 1.4rem;
+  box-shadow: none !important;
+  background-color: transparent !important;
+}
+
+.accordion-button:focus {
+  color: var(--main-color) !important;
+}
+.accordion-p {
+  font-size: 1.1rem;
+  margin-bottom: 0 !important;
+}

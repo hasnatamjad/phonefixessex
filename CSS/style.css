@@ -63,7 +63,7 @@ body {
 /* -----Setting Colors Systems----- */
 /* ======================================================= */
 :root {
-  --main-color-light: #d4c8f8;
+  --main-color-light: #e5dbff;
   /* 
   --main-color: #7048e8;
   */
@@ -123,8 +123,7 @@ body {
 }
 
 .btn-main:hover,
-.btn-main:active,
-.btn-main:link {
+.btn-main:active {
   background-color: var(--second-color);
   color: var(--white-color);
   border: none !important;
@@ -221,4 +220,14 @@ input[type="number"] {
 
 .carousal-control {
   border-radius: 50%;
+}
+
+.why-us-icons {
+  width: 35%;
+  fill: #6741d9;
+  margin-bottom: 0.9rem;
+}
+
+.icon-text {
+  line-height: 1.1;
 }

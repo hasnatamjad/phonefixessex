@@ -493,3 +493,15 @@
           </div>
         </div>
       </section>
+
+#herosection changes
+fix my device
+resell
+on click simple form
+name, mobile, phone number, issue 150 words max
+
+#new section added
+discover all devicec you can repai with us
+
+#why phinefixessex
+since 2017 remove

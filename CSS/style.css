@@ -333,4 +333,12 @@ input[type="number"] {
 
 .whatsapp-button a svg {
   background-color: #fff;
+  height: 3.5rem;
+}
+
+@media (max-width: 600px) {
+  .whatsapp-button a svg {
+    background-color: #fff;
+    height: 2.8rem;
+  }
 }

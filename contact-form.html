@@ -13,7 +13,63 @@
     <div id="pageMenu"></div>
     <main>
       <section class="py-5 my-5">
-        <div class="container"></div>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-8">
+              <h4 class="text-main text-center">Repair or Resell</h4>
+              <h1 class="text-center fw-bold mb-5 text-second">Contact Us</h1>
+              <form action="mail.php" method="post">
+                <div class="row">
+                  <div class="col-md-6 mb-4">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="name"
+                      name="name"
+                      placeholder="Full Name"
+                      required
+                    />
+                  </div>
+                  <div class="col-md-6 mb-4">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="mobileModel"
+                      name="mobileModel"
+                      placeholder="Mobile Model"
+                      required
+                    />
+                  </div>
+                  <div class="col-md-12 mb-4">
+                    <input
+                      type="tel"
+                      class="form-control"
+                      id="phoneNumber"
+                      name="phoneNumber"
+                      placeholder="Phone Number"
+                      required
+                    />
+                  </div>
+                  <div class="col-m-12 mb-4">
+                    <textarea
+                      class="form-control"
+                      id="message"
+                      name="message"
+                      rows="5"
+                      maxlength="150"
+                      placeholder="Repair/Resell: Message Here"
+                      required
+                    ></textarea>
+                  </div>
+
+                  <button type="submit" class="btn btn-main col-6 mx-auto">
+                    Send
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
     <footer id="pageFooter"></footer>
